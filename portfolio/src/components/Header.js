@@ -1,6 +1,6 @@
 import React from 'react'
-import '../style/Header.css'
-import '../style/Nav.css'
+import '../styles/Header.css'
+import '../styles/Nav.css'
 // Navigation will be called in inside the div, it is calling in the component of Nav.js
 import Navigation from './Nav' 
 
@@ -11,5 +11,5 @@ export default function Header() {
             <Navigation />       
         </div>
     )
-}
+} 
 

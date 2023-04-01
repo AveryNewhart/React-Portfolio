@@ -1,9 +1,9 @@
 import React from 'react';
-import Twitter from '../imgs/twit-bw.png';
-import LinkedIn from '../imgs/linkedin-bw.png';
-import Github from '../imgs/git-bw.png';
-import '../style/Footer.css';
-
+import Twitter from '../imgs/twitterGreen.png';
+import LinkedIn from '../imgs/linkedinGreen.png';
+import Github from '../imgs/githubGreen.png';
+import '../styles/Footer.css';
+ 
 export default function Footer() {
     return (
         <div className='div-footer footer-img'>

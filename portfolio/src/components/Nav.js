@@ -24,12 +24,19 @@ export default function Nav() {
             name: 'Resume',
             href: '/resume'
         }
-    ]);
+    ]); 
     return (
         <div className="div-nav">
             {links.map((link) => {
                 return (
-                <a className="link-nav" onClick={() => {
+                <a 
+                style={{
+                    backgroundColor: pathname === link.href ? "#02c39a" : "none",
+                    color: pathname === link.href ? "#2b2d42" : "#02c39a",
+                    width: pathname === link.href ? "100%" : "75%",
+                    borderRadius: pathname === link.href ? "25%" : "100%"
+                }}
+                className="link-nav" onClick={() => {
                     location(link.href);
                 }}
                 >
