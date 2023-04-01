@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+}
+
+.name-input {
+    width: 50%;
+}
+
+.email-input {
+    width: 50%;
+}
+
+.message-textarea {
+    width: 50%;
+}
+
+.submit-contact {
+    width: 15%;
+    background: #02c39a;
+    border: none;
+    box-shadow: 0 0 5px #02c39a, 0 0 20px #02c39a;
+    border-radius: 25%;
+}
+
+.center-divs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    text-align: center;
+}
