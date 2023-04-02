@@ -14,9 +14,8 @@ export default function Propject(props) {
             <div className="proj-body">
                 <h2 className="proj-title">{props.title}</h2>
                 <p className="proj-description">{props.description}</p>
-                <p className="proj-tools">Tools: {props.tools}</p>
-                <p className="proj-links" href={props.gitRepo}>Github Repository</p>
-                <p className="proj-links" href={props.deployedApp}>Deployed App</p>
+                <p className="proj-links" href={props.github}>Github Repository</p>
+                <p className="proj-links" href={props.deployed}>Deployed App</p>
             </div>
        ; </div>
     )

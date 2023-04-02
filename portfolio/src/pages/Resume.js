@@ -61,7 +61,6 @@ export default function Resume() {
         }
     ]);
 
-    //put function here that will allow you to save my resume file
 
   return (
     <div className='main-div'>
