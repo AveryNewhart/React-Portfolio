@@ -15,3 +15,18 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+@media (max-width: 420px) {
+    .div-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .f-img {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}
