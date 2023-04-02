@@ -32,3 +32,15 @@
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
+
+.download-res {
+    text-decoration: underline;
+    color: #02c39a;
+    /* text-shadow: 0 0 5px #02c39a, 0 0 20px #02c39a; */
+    cursor: pointer;
+}
+
+.download-res:hover {
+    color: #02c39a;
+    text-shadow: 0 0 5px #02c39a, 0 0 20px #02c39a;
+}
