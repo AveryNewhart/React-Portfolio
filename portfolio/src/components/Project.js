@@ -12,10 +12,10 @@ export default function Propject(props) {
                 />
             </figure>
             <div className="proj-body">
-                <h2 className="proj-title">{props.title}</h2>
+                <h3 className="proj-title">{props.title}</h3>
                 <p className="proj-description">{props.description}</p>
-                <p className="proj-links" href={props.github}>Github Repository</p>
-                <p className="proj-links" href={props.deployed}>Deployed App</p>
+                <a className="proj-links" href={props.deployed}>Deployed App</a>
+                <a className="proj-links" href={props.github}>Github Repo</a>
             </div>
        ; </div>
     )
