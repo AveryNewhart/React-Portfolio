@@ -1,0 +1,34 @@
+.main-skill-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.header-h3 {
+    background-color:#02c39a;
+    color: #2b2d42;
+    text-align: center;
+}
+
+.front-end-div {
+    border: 2px solid #02c39a;
+    color: #02c39a;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.front-end-li {
+    padding: 1.5vh;
+}
+
+.back-end-li {
+    padding: 1.5vh;
+}
+
+.back-end-div {
+    border: 2px solid #02c39a;
+    color: #02c39a;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}

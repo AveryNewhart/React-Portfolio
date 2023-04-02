@@ -3,7 +3,6 @@ import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
 import "../styles/App.css";
 import "../styles/Resume.css";
-import { UNSAFE_DataRouterStateContext } from 'react-router-dom';
 
 export default function Resume() {
     //calling in useState and creating the array of objects that will be rendered on the page
@@ -72,21 +71,26 @@ export default function Resume() {
         <div className='section-header'>
             <h2 className='header-h2'>Resume</h2>
         </div>
-        <div className='front-end-div'>
-            <div className='front-end-head'>
-                <h3 className='front-head'>Front End Skills</h3>
+        <div className='main-skill-div'>
+            <div className='front-end-div'>
+                <div className='front-end-head'>
+                    <h3 className='front-head header-h3'>Front End Skills</h3>
+                </div>
+                {frontEnd.map((skill) => {
+                    return <li className='front-end-li'>{skill.name}</li>
+                })}
             </div>
-            {frontEnd.map((skill) => {
-                return <li className='front-end-li'>{skill.name}</li>
-            })}
+            <div className='back-end-div'>
+                <div className='back-end-head'>
+                    <h3 className='back-head header-h3'>Back End Skills</h3>
+                </div>
+                {backEnd.map((skill) => {
+                    return <li className='back-end-li'>{skill.name}</li>
+                })}
+            </div>
         </div>
-        <div className='back-end-div'>
-            <div className='back-end-head'>
-                <h3 className='back-head'>Back End Skills</h3>
-            </div>
-            {backEnd.map((skill) => {
-                return <li className='back-end-li'>{skill.name}</li>
-            })}
+        <div className='footer-main'>
+            <Footer />
         </div>
     </div>
   )
