@@ -30,3 +30,19 @@
     }
 
 }
+
+
+@media (max-width: 680px) {
+    .div-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .f-img {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}

@@ -66,3 +66,24 @@ body {
     bottom:0;
     width: 100%;
 }
+
+
+@media (max-width: 420px) {
+    .foot-con {
+        margin-bottom: 15px;
+    }
+
+    .contact-form {
+        margin-top: 15vh;
+    }
+}
+
+@media (max-width: 680px) {
+    .foot-con {
+        margin-bottom: 15px;
+    }
+
+    .contact-form {
+        margin-top: 15vh;
+    }
+}

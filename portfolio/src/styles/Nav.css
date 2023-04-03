@@ -12,5 +12,22 @@
     text-decoration: none;
     padding: 10px;
     cursor: pointer;
+} 
+
+
+@media (max-width: 420px) {
+    .link-nav {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 680px) {
+    .link-nav {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 10px;
+    }
 }
 
