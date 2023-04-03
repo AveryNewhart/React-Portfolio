@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.92d8886c.css",
+    "main.js": "/react-gh-pages/static/js/main.62349a96.js",
+    "static/media/methree.png": "/react-gh-pages/static/media/methree.1ce8541b52a88a423560.png",
+    "static/media/reviewone.png": "/react-gh-pages/static/media/reviewone.d8886254e98d868cd1fa.png",
+    "static/media/flicktracker.png": "/react-gh-pages/static/media/flicktracker.4ba5c04531f1b568e1e4.png",
+    "static/media/music.png": "/react-gh-pages/static/media/music.4bdaafd5a1f6111f9bac.png",
+    "static/media/socialmediabackend.png": "/react-gh-pages/static/media/socialmediabackend.99f397940351d736b635.png",
+    "static/media/readmeGen.png": "/react-gh-pages/static/media/readmeGen.cb3f4a63787feb9e2e1b.png",
+    "static/media/wordday.png": "/react-gh-pages/static/media/wordday.2e0d28f7f2ce019a0391.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.92d8886c.css.map": "/react-gh-pages/static/css/main.92d8886c.css.map",
+    "main.62349a96.js.map": "/react-gh-pages/static/js/main.62349a96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92d8886c.css",
+    "static/js/main.62349a96.js"
+  ]
+}
