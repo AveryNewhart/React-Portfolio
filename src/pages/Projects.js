@@ -25,7 +25,7 @@ export default function Projects() {
         {
             image: Music,
             title: "Musician Website",
-            description: "This is a basic template for a any musicians website. You can have an about page with a picture and short bio. Then there is a store for the musician, and also a tours page to view the musicians upcoming tours.",
+            description: "This is a basic template for any musicians website. You can have an about page with a picture and short bio. Then there is a store for the musician, and also a tours page to view the musicians upcoming tours.",
             deployed: "https://averynewhart.github.io/Musician-Website/",
             github: "https://github.com/AveryNewhart/Musician-Website"    
            },
