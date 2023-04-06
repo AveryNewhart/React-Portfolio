@@ -20,7 +20,7 @@
   - Run "npm start" to start the application. 
 
   ## Usage
-  - links and images
+  - https://averynewhart.com/
 
   ## License
   -  N/A
