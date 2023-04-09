@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
-import MyPic from "../imgs/methree.png";
+import MyPic from "../imgs/mynewpic.png";
 import "../styles/App.css"
 
 export default function About() {
