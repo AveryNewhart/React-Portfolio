@@ -54,6 +54,11 @@ body {
   bottom:0;
 }
 
+.big-foot {
+  position: relative;
+  bottom: 0;
+}
+
 @media (min-width: 1450px) {
   .main-foot {
     position: absolute;

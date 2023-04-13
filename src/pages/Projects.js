@@ -82,7 +82,7 @@ export default function Projects() {
                 );
             })}
         </div>
-        <div className='main-foot'>
+        <div className='big-foot'>
         <Footer />
         </div>
     </div>
