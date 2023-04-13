@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
-import "../styles/App.css";
 import "../styles/Resume.css";
+import "../styles/App.css";
 
 export default function Resume() {
     //calling in useState and creating the array of objects that will be rendered on the page
@@ -89,7 +89,7 @@ export default function Resume() {
                 })}
             </div>
         </div>
-        <div className='footer-main'>
+        <div className='main-foot'>
             <Footer />
         </div>
     </div>
