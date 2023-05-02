@@ -4,6 +4,7 @@ import Footer from "../components/Footer.js";
 import ProjectDiv from "../components/Project.js"
 // import photos of projects
 import FlickTracker from "../imgs/flicktracker.png";
+import TheFlickTracker from "../imgs/theproject3.png";
 import Music from "../imgs/music.png";
 import ReviewOne from "../imgs/reviewone.png";
 import WorkDay from "../imgs/wordday.png";
@@ -15,6 +16,13 @@ import "../styles/Project.css"
 export default function Projects() {
     //calling in useState and creating the array of objects which will be my projects
     const [myProjects, setMyProjects] = useState([
+        {
+            image: TheFlickTracker,
+            title: "The Flick Tracker",
+            description: "Create an account, Search movies, save them wo watched or watchlist, follow other users.",
+            deployed: "https://the-flick-tracker.herokuapp.com/",
+            github: "https://github.com/AveryNewhart/The-Flick-Tracker"   
+        },
         {
             image: FlickTracker,
             title: "Flick Tracker",
