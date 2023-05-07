@@ -69,7 +69,7 @@ export default function Resume() {
         </div>
         <div className='section-header'>
             <h2 className='header-h2'>Resume</h2>
-            <a href="reactres.pdf" download className='download-res'>DOWNLOAD HERE</a>
+            <a href="averyRes.pdf" download className='download-res'>DOWNLOAD HERE</a>
         </div>
         <div className='main-skill-div'>
             <div className='front-end-div'>
