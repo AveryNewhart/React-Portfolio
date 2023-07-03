@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef6931f2.css",
-    "main.js": "/static/js/main.91ea4679.js",
+    "main.js": "/static/js/main.d5d8eec4.js",
     "static/media/mynewpic.png": "/static/media/mynewpic.6d2b014d7c783efd2f61.png",
     "static/media/reviewone.png": "/static/media/reviewone.d8886254e98d868cd1fa.png",
     "static/media/flicktracker.png": "/static/media/flicktracker.4ba5c04531f1b568e1e4.png",
@@ -10,13 +10,14 @@
     "static/media/yourmovies.png": "/static/media/yourmovies.859d2cc9e55e8fc3d702.png",
     "static/media/socialmediabackend.png": "/static/media/socialmediabackend.99f397940351d736b635.png",
     "static/media/readmeGen.png": "/static/media/readmeGen.cb3f4a63787feb9e2e1b.png",
+    "static/media/mymusic.png": "/static/media/mymusic.424fd577cc0833907be5.png",
     "static/media/wordday.png": "/static/media/wordday.2e0d28f7f2ce019a0391.png",
     "index.html": "/index.html",
     "main.ef6931f2.css.map": "/static/css/main.ef6931f2.css.map",
-    "main.91ea4679.js.map": "/static/js/main.91ea4679.js.map"
+    "main.d5d8eec4.js.map": "/static/js/main.d5d8eec4.js.map"
   },
   "entrypoints": [
     "static/css/main.ef6931f2.css",
-    "static/js/main.91ea4679.js"
+    "static/js/main.d5d8eec4.js"
   ]
 }
