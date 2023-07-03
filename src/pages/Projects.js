@@ -11,12 +11,20 @@ import ReviewOne from "../imgs/reviewone.png";
 import WorkDay from "../imgs/wordday.png";
 import ReadMeGen from "../imgs/readmeGen.png";
 import SocialMedia from "../imgs/socialmediabackend.png";
+import MyMusic from "../imgs/mymusic.png";
 import "../styles/App.css"
 import "../styles/Project.css"
 
 export default function Projects() {
     //calling in useState and creating the array of objects which will be my projects
     const [myProjects, setMyProjects] = useState([
+        {
+            image: MyMusic,
+            title: "My Music",
+            description: "Search artists and save their albums to two categories then write reviews on them. You will be able to follow other users too.",
+            deployed: "https://my-music-4e69cad2a89f.herokuapp.com/",
+            github: "https://github.com/AveryNewhart/my-music"   
+        },
         {
             image: YourMovies,
             title: "YOUR MOVIES",
@@ -86,9 +94,9 @@ export default function Projects() {
             <h2 className='header-h2'>Projects</h2>
         </div>
         <div className='project-div'>
-            {myProjects.map((proj) => {
+            {myProjects.map((proj, index) => {
                 return (
-                <ProjectDiv
+                <ProjectDiv key={index}
                 image={proj.image}
                 title={proj.title}
                 description={proj.description}

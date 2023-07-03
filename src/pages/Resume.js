@@ -69,23 +69,23 @@ export default function Resume() {
         </div>
         <div className='section-header'>
             <h2 className='header-h2'>Resume</h2>
-            <a href="averyRes.pdf" download className='download-res'>DOWNLOAD HERE</a>
+            <a href="newResAvery.pdf" download className='download-res'>DOWNLOAD HERE</a>
         </div>
         <div className='main-skill-div'>
             <div className='front-end-div'>
                 <div className='front-end-head'>
                     <h3 className='front-head header-h3'>Front End Skills</h3>
                 </div>
-                {frontEnd.map((skill) => {
-                    return <li className='front-end-li'>{skill.name}</li>
+                {frontEnd.map((skill, index) => {
+                    return <li key={index} className='front-end-li'>{skill.name}</li>
                 })}
             </div>
             <div className='back-end-div'>
                 <div className='back-end-head'>
                     <h3 className='back-head header-h3'>Back End Skills</h3>
                 </div>
-                {backEnd.map((skill) => {
-                    return <li className='back-end-li'>{skill.name}</li>
+                {backEnd.map((skill, index) => {
+                    return <li key={index} className='back-end-li'>{skill.name}</li>
                 })}
             </div>
         </div>

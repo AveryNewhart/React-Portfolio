@@ -27,9 +27,9 @@ export default function Nav() {
     ]); 
     return (
         <div className="div-nav">
-            {links.map((link) => {
+            {links.map((link, index) => {
                 return (
-                <a 
+                <a key={index}
                 style={{
                     backgroundColor: pathname === link.href ? "#02c39a" : "none",
                     color: pathname === link.href ? "#2b2d42" : "#02c39a",
